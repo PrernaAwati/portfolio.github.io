@@ -7,17 +7,14 @@
 
 /* Global Styles */
 body {
-    font-family: 'Roboto', sans-serif; /* Modern and clean font family */
-    background: url('https://images.unsplash.com/photo-1507464844106-3d5b1dc01711?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
-    /* Rain-themed image URL (you can replace this with your own) */
-    background-size: cover; /* Makes sure the image covers the entire background */
-    color: #ffffff; /* White text color for better readability */
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
     margin: 0;
-    padding: 20px;
+    padding: 20px; /* Adding padding to the body to prevent sticking at the top */
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
+    align-items: flex-start; /* Aligns content towards the top */
+    min-height: 100vh;
 }
 
 /* Main Container */
